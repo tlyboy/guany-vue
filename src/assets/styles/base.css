@@ -15,3 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+code {
+  font-family: 'CaskaydiaCove Nerd Font', 'Source Han Sans SC VF', Consolas, monaco, monospace;
+}
