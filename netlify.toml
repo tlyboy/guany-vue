@@ -1,8 +1,8 @@
 [build]
-command = "vue-cli-service build"
 publish = "dist"
+command = "vue-cli-service build"
 
 [[redirects]]
 from = "/*"
-status = 200
 to = "/index.html"
+status = 200
