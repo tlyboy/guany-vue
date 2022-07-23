@@ -1,6 +1,10 @@
 [build]
 publish = "dist"
-command = "vue-cli-service build"
+command = "npx pnpm install --store=node_modules/.pnpm-store && npm run build"
+
+[build.environment]
+NODE_VERSION = "16"
+NPM_FLAGS = "--version"
 
 [[redirects]]
 from = "/*"
