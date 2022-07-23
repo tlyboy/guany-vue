@@ -1,9 +1,9 @@
 {
+  "include": ["./src/**/*"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
-  },
-  "exclude": ["dist", "dist_electron", "node_modules"]
+  }
 }
