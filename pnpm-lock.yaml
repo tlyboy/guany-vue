@@ -8,6 +8,7 @@ specifiers:
   '@vue/cli-plugin-vuex': ~4.5.19
   '@vue/cli-service': ~4.5.19
   '@vue/eslint-config-prettier': ^6.0.0
+  animate.css: ^4.1.1
   axios: ^0.27.2
   babel-eslint: ^10.1.0
   babel-plugin-import: ^1.13.5
@@ -15,6 +16,7 @@ specifiers:
   eslint: ^6.7.2
   eslint-plugin-prettier: ^3.3.1
   eslint-plugin-vue: ^6.2.2
+  normalize.css: ^8.0.1
   prettier: ^2.2.1
   vue: ^2.6.11
   vue-router: ^3.2.0
@@ -23,8 +25,10 @@ specifiers:
 
 dependencies:
   '@icon-park/vue': 1.4.2_vue@2.7.8
+  animate.css: 4.1.1
   axios: 0.27.2
   core-js: 3.23.5
+  normalize.css: 8.0.1
   vue: 2.7.8
   vue-router: 3.5.4
   vuex: 3.6.2_vue@2.7.8
@@ -2204,6 +2208,10 @@ packages:
   /alphanum-sort/1.0.2:
     resolution: {integrity: sha512-0FcBfdcmaumGPQ0qPn7Q5qTgz/ooXgIyp1rf8ik5bGX8mpE2YHjC0P/eyQvxu1GURYQgq9ozf2mteQ5ZD9YiyQ==}
     dev: true
+
+  /animate.css/4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
+    dev: false
 
   /ansi-colors/3.2.4:
     resolution: {integrity: sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==}
@@ -6657,6 +6665,10 @@ packages:
     resolution: {integrity: sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==}
     engines: {node: '>=6'}
     dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
+    dev: false
 
   /npm-run-path/2.0.2:
     resolution: {integrity: sha512-lJxZYlT4DW/bRUtFh1MQIWqmLwQfAxnqWG4HhEdjMlkrJYnJn0Jrr2u3mgxqaWsdiBc76TYkTG/mhrnYTuzfHw==}

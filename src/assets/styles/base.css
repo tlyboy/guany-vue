@@ -1,13 +1,15 @@
 *,
 ::before,
 ::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   position: relative;
   font-weight: normal;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+}
+
+:root {
+  --primary-color: #3498db;
 }
 
 body {

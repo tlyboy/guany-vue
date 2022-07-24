@@ -1,5 +1,6 @@
+import 'normalize.css'
+import 'animate.css'
 import '@/assets/styles/base.css'
-import '@/assets/styles/theme.css'
 import axios from 'axios'
 import Vue from 'vue'
 import App from '@/App.vue'
